@@ -18,6 +18,12 @@
     body {font-family: sans-serif; margin: 0; padding: 0;}
     .main {background-color: #075E54;}
     .padder {padding-left: 0; padding-bottom: 4px; padding-top: 4px; padding-right: 0;}
+    div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    }
 </style>
     
 </head>
@@ -40,6 +46,15 @@
     <section class="container-fluid"> 
         
     </section>
+    
+    <div class="fixed">
+        <div class="form-group has-success has-feedback">
+          <div class="col-sm-10">
+            <input type="text" placeholder="Type your message" class="form-control" id="inputSuccess">
+            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+          </div>
+        </div>
+    </div>
     
 </body>
 
